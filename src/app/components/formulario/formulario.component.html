@@ -1,0 +1,16 @@
+<form>
+    <mat-form-field style="display: block;">
+        <mat-label>NAME</mat-label>
+        <input matInput placeholder="Ethel Dawson" #name>
+    </mat-form-field>
+    <mat-form-field style="display: block;">
+        <mat-label>EMAIL</mat-label>
+        <input matInput placeholder="zate@fowov.vi" #email>
+    </mat-form-field>
+    <mat-form-field style="display: block;">
+        <mat-label>PHONE NUMBER</mat-label>
+        <input matInput placeholder="(245) 759-8716" #phone>
+    </mat-form-field>
+    <button mat-raised-button color="primary" style="display: block;" (click)="addUser(name,email,phone)">save</button>
+
+</form>
